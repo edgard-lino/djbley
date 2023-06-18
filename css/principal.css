@@ -1,0 +1,40 @@
+.principal {
+  background-color: rgba(128, 128, 128, 0.495);
+}
+
+.principal__container {
+  width: 90%;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.apresentacao {
+  max-width: 910px;
+  margin: auto;
+}
+
+.apresentacao__imagem {
+  width: 100%;
+}
+
+.apresentacao__texto {
+  font-family: var(--fonte-principal);
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 300;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 720px) {
+  .apresentacao {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .apresentacao__imagem {
+    width: 15rem;
+    
+  }
+}

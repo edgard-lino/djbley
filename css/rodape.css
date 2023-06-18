@@ -1,0 +1,68 @@
+.rodape {
+  background-color: black;
+  width: 100%;
+  
+}
+
+.rodape__container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content:space-between;
+  padding: 2rem 0;
+  align-items: center;
+}
+
+.rodape__logo {
+  width: 8rem;
+}
+
+.rodape__contatos {
+  text-align: center;
+}
+
+.rodape__contatos p {
+  color: white;
+  font-family: var(--fonte-principal);
+  font-weight: 300;
+}
+
+.rodape__contatos__logo {
+  width: 2rem;
+}
+
+.rodape__telefone {
+  font-family: var(--fonte-principal);
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.rodape__link-whats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.4rem;
+  text-decoration: none;
+}
+
+.rodape__contatos__logos {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.rodape__credito {
+  font-family: var(--fonte-principal);
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+@media screen and (min-width: 720px) {
+  .rodape__container {
+    justify-content: space-around;
+  }
+}
