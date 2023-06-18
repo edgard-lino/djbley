@@ -19,12 +19,51 @@
 
 .apresentacao__texto {
   font-family: var(--fonte-principal);
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 2rem;
   font-weight: 300;
   padding-top: 1rem;
   text-align: center;
 }
+
+.apresentacao__texto__negrito {
+  font-weight: 500;
+}
+
+.shows {
+
+}
+
+.shows h2 {
+  font-family: var(--fonte-principal);
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.shows p {
+  font-family: var(--fonte-principal);
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 300;
+  text-align: center;
+}
+.shows__cartazes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+.shows__cartazes img {
+  width: 150px;
+  /* max-width: 350px; */
+}
+
+.shows__cartazes img:hover {
+  width: 100%;
+}
+
 
 @media screen and (min-width: 720px) {
   .apresentacao {
