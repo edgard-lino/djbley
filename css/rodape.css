@@ -54,6 +54,10 @@
   margin-top: 1rem;
 }
 
+.rodape a {
+  text-decoration: none;
+}
+
 .rodape__credito {
   font-family: var(--fonte-principal);
   font-weight: 300;
@@ -76,5 +80,8 @@
     text-decoration: underline;
   }
 
+  .rodape a:hover {
+    text-decoration: underline;
+  }
 
 }
