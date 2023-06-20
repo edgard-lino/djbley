@@ -117,11 +117,12 @@
   .apresentacao__imagem {
     width: 15rem;
     transition: 1s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.468);
   }
 
   .shows__cartazes img, .fotos__container img {
     width: 200px;
-    /* max-width: 350px; */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.468);
   }
   
   .shows__cartazes img:hover, .fotos__container img:hover {
