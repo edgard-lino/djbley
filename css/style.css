@@ -5,3 +5,24 @@
 :root {
   --fonte-principal: 'Rubik', sans-serif;
 }
+
+.titulo {
+  font-family: var(--fonte-principal);
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.texto {
+  font-family: var(--fonte-principal);
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.texto-negrito {
+  font-weight: 500;
+}

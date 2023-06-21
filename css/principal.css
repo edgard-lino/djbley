@@ -2,64 +2,22 @@
   background: linear-gradient(0deg, rgba(145,137,194,1) 39%, rgba(216,207,226,1) 100%);
 }
 
-.principal__container {
+.container, .principal__container {
   width: 90%;
+  max-width: 900px;
   margin: auto;
   padding: 1rem 0;
 }
 
 .apresentacao {
-  max-width: 910px;
-  margin: auto;
+  
 }
 
 .apresentacao__imagem {
   width: 100%;
 }
 
-.apresentacao__texto {
-  font-family: var(--fonte-principal);
-  font-size: 1.2rem;
-  line-height: 2rem;
-  font-weight: 300;
-  padding-top: 1rem;
-  text-align: center;
-}
-
-.apresentacao__texto__negrito {
-  font-weight: 500;
-}
-
-.shows h2, .fotos h2, .release__container h2, .contato__container h2 {
-  font-family: var(--fonte-principal);
-  font-weight: 700;
-  font-size: 2.5rem;
-  text-align: center;
-  margin-top: 3rem;
-}
-
-.shows p, .release p, .contato__texto {
-  font-family: var(--fonte-principal);
-  font-size: 1.2rem;
-  line-height: 2rem;
-  font-weight: 300;
-  text-align: center;
-  margin: 1rem 0;
-}
-
-.release b {
-  font-weight: 500;
-}
-.shows__cartazes, .fotos__container, .release__container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1rem;
-}
-
 .contato__container {
-  text-align: center;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -73,7 +31,6 @@
   max-width: 400px;
   flex-direction: row;
   align-items: center;
-  
 }
 
 .contato__telefone {
@@ -88,8 +45,15 @@
   flex-direction: row;
   align-items: center;
   gap: 1rem;
-  
   text-decoration: none;
+}
+
+.shows__cartazes, .fotos__container, .release__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
 }
 
 
@@ -100,7 +64,7 @@
 }
 .shows__cartazes img, .fotos__container img {
   width: 150px;
-  /* max-width: 350px; */
+
 }
 
 .shows__cartazes img:hover, .fotos__container img:hover {
@@ -108,7 +72,7 @@
 }
 
 @media screen and (min-width: 720px) {
-  .apresentacao {
+  .apresentacao__container {
     display: flex;
     gap: 2rem;
     align-items: center;
@@ -132,5 +96,4 @@
   .contato__telefone:hover {
     text-decoration: underline;
   }
-  
 }
