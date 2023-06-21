@@ -50,7 +50,8 @@
 }
 
 .imagem {
-  width: 150px;
+  width: 170px;
+  box-shadow: 5px 5px 10px var(--preto-sombra);
 }
 
 .imagem:hover {
@@ -60,7 +61,6 @@
 @media screen and (min-width: 720px) {
   .imagem {
     width: 200px;
-    box-shadow: 5px 5px 10px var(--preto-sombra);
   }
   
   .imagem:hover {
