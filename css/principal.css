@@ -1,20 +1,26 @@
+/* PRINCIPAL */
 .principal {
-  background: linear-gradient(0deg, rgba(145,137,194,1) 39%, rgba(216,207,226,1) 100%);
+  /* background: var(--gradiente-fundo); */
 }
 
-.container, .principal__container {
-  width: 90%;
-  max-width: 900px;
-  margin: auto;
-  padding: 1rem 0;
-}
-
+/* APRESENTACAO */
 .apresentacao {
-  
+  background: linear-gradient(0deg, #B4B8E8, white);
+}
+
+.apresentacao__container {
+
 }
 
 .apresentacao__imagem {
   width: 100%;
+  box-shadow: 5px 5px 10px var(--preto-sombra);
+  margin-bottom: 2rem;
+}
+
+/* CONTATO */
+.contato {
+  background-color: #B4B8E8;
 }
 
 .contato__container {
@@ -33,11 +39,15 @@
   align-items: center;
 }
 
+.contato__logo-link {
+  width: 2.2rem;
+}
+
 .contato__telefone {
   font-family: var(--fonte-principal);
   font-weight: 500;
   font-size: 1.2rem;
-  color: black;
+  color: var(--preto);
 }
 
 .contato__link-whats {
@@ -48,50 +58,54 @@
   text-decoration: none;
 }
 
-.shows__cartazes, .fotos__container, .release__container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1rem;
+/* SHOWS */
+.shows {
+  background: linear-gradient(0deg, #647B91, #B4B8E8);
 }
 
-
-.fotos__container, .release__container {
-  max-width: 800px;
-  padding-top: 2rem;
-  margin: auto;
-}
-.shows__cartazes img, .fotos__container img {
-  width: 150px;
+.shows__container {
 
 }
 
-.shows__cartazes img:hover, .fotos__container img:hover {
-  width: 100%;
+/* FOTOS */
+.fotos {
+  background: linear-gradient(0deg, #B0C7DE, #647B91);
+}
+
+.fotos__container {
+
+}
+
+/* RELEASE */
+.release {
+  background: linear-gradient(0deg, white, #B0C7DE);
+}
+
+.release__container {
+
 }
 
 @media screen and (min-width: 720px) {
+  /* APRESENTACAO */
   .apresentacao__container {
     display: flex;
-    gap: 2rem;
+    gap: 2.5rem;
     align-items: center;
   }
 
   .apresentacao__imagem {
-    width: 15rem;
+    width: 18rem;
     transition: 1s;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.468);
+    margin-bottom: 0;
   }
 
-  .shows__cartazes img, .fotos__container img {
-    width: 200px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.468);
+  .apresentacao__container .texto {
+    margin-bottom: 0rem;
   }
+
+  /* SHOWS */
+
   
-  .shows__cartazes img:hover, .fotos__container img:hover {
-    width: 300px;
-  }
 
   .contato__telefone:hover {
     text-decoration: underline;

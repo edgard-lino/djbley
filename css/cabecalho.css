@@ -26,8 +26,8 @@
 }
 
 .cabecalho__sub-titulo {
-  background-color: black;
-  color: white;
+  background-color: var(--preto);
+  color: var(--branco);
   font-family: var(--fonte-principal);
   font-size: 2rem;
   font-weight: 500;
