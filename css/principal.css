@@ -24,19 +24,19 @@
 }
 
 .contato__container {
-  display: flex;
   align-items: center;
+  display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
 .contato__links {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  max-width: 400px;
-  flex-direction: row;
   align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 400px;
+  width: 100%;
 }
 
 .contato__logo-link {
@@ -44,16 +44,16 @@
 }
 
 .contato__telefone {
-  font-family: var(--fonte-principal);
-  font-weight: 500;
-  font-size: 1.2rem;
   color: var(--preto);
+  font-family: var(--fonte-principal);
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .contato__link-whats {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  align-items: center;
   gap: 1rem;
   text-decoration: none;
 }
@@ -100,13 +100,10 @@
   }
 
   .apresentacao__container .texto {
-    margin-bottom: 0rem;
+    margin-bottom: 0;
   }
 
-  /* SHOWS */
-
-  
-
+  /* CONTATO */
   .contato__telefone:hover {
     text-decoration: underline;
   }
